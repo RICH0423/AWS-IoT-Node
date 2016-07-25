@@ -1,0 +1,21 @@
+{
+  "name": "aws_iot",
+  "version": "0.0.1",
+  "description": "The AWS IoT Node.js demo",
+  "main": "VibrationApp.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.12",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "AWS",
+    "IoT"
+  ],
+  "author": "rich lee",
+  "license": "ISC"
+}

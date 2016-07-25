@@ -1,0 +1,21 @@
+
+ Embedded C
+ NodeJS
+ Arduino Yún
+AWS IoT Node.js SDK
+Download the AWS IoT Node.js SDK.
+
+Set up the SDK using the instructions in our README on GitHub.
+
+Add in the following sample code based on your account, Thing, and new certificate:
+
+{
+    "host": "A41QQLIWNAVKO.iot.us-west-2.amazonaws.com",
+    "port": 8883,
+    "clientId": "RICH_Thing1",
+    "thingName": "RICH_Thing1",
+    "caCert": "root-CA.crt",
+    "clientCert": "5c0f673d72-certificate.pem.crt",
+    "privateKey": "5c0f673d72-private.pem.key"
+}
+Start one of the sample applications found in the SDK. You can use the AWS IoT console to observe the state of your thing's shadow and interact with your device by updating the shadow. Only one device can use a clientID for connecting to the AWS IoT platform at the same time. If you want to connect multiple devices concurrently please create a separate thing (and client certificate) per device that you intend to connect.

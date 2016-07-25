@@ -1,0 +1,27 @@
+connect success!
+subscribe topic: topic_1
+Publish vibration: 286 success!
+Publish vibration: 373 success!
+Receive message topic_1 {"id":"f12a40e1-2966-11e6-b90d-6b054a9880fc","vibration":373}
+Publish vibration: 68 success!
+Publish vibration: 390 success!
+Receive message topic_1 {"id":"f12a40e3-2966-11e6-b90d-6b054a9880fc","vibration":390}
+Publish vibration: 229 success!
+Publish vibration: 46 success!
+Publish vibration: 57 success!
+Publish vibration: 40 success!
+Publish vibration: 312 success!
+Receive message topic_1 {"id":"f12a40e8-2966-11e6-b90d-6b054a9880fc","vibration":312}
+Publish vibration: 299 success!
+Publish vibration: 233 success!
+Publish vibration: 299 success!
+Publish vibration: 278 success!
+Publish vibration: 152 success!
+Publish vibration: 310 success!
+Receive message topic_1 {"id":"f12a67f4-2966-11e6-b90d-6b054a9880fc","vibration":310}
+Publish vibration: 47 success!
+Publish vibration: 213 success!
+Publish vibration: 120 success!
+Publish vibration: 70 success!
+Publish vibration: 306 success!
+Receive message topic_1 {"id":"f12a67f9-2966-11e6-b90d-6b054a9880fc","vibration":306}
